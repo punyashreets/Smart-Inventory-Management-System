@@ -12,8 +12,8 @@ A comprehensive inventory management system for small businesses with user authe
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/DhanushPadarthi/Smart-Inventory-Management-System.git
-cd "Smart Inventory Management System"
+git clone https://github.com/punyashreets/Smart-Inventory-Management-System
+cd Smart-Inventory-Management-System
 ```
 
 2. **Create virtual environment**
@@ -82,10 +82,44 @@ Smart Inventory Management System/
 - **Search & Filters**: Advanced product search and filtering
 - **Low Stock Detection**: Automatic identification of low stock items
 
-### 🚧 Upcoming Milestones
-- **Milestone 3** (Week 5): Low-Stock Alerts & Notifications
-- **Milestone 4** (Weeks 6-7): Transaction Management
-- **Milestone 5** (Week 8): Reports & Export
+
+### 🔔 Milestone 3 (Week 5): Low-Stock Alerts & Notifications
+This module focuses on intelligent inventory monitoring to prevent stock shortages.
+
+- Define minimum stock thresholds for each product
+- Allow admins to configure custom alert levels
+- Automatically detect low-stock conditions
+- Display real-time alerts on the dashboard
+- Send notifications (Email/SMS) to responsible staff
+
+👉 Outcome: Ensures timely restocking and avoids inventory shortages.
+
+---
+
+### 📦 Milestone 4 (Weeks 6–7): Transaction Management
+This module enables complete tracking of inventory movements through structured transactions.
+
+- Record all purchase and sales transactions
+- Capture details like product name, quantity, type, date, and user
+- Maintain a full audit trail of stock changes
+- Automatically update stock levels based on transactions
+- Provide real-time reflection of inventory changes
+
+👉 Outcome: Improves transparency, accountability, and accurate stock tracking.
+
+---
+
+### 📊 Milestone 5 (Week 8): Reports & Export System
+This module provides analytical insights and reporting capabilities for better decision-making.
+
+- Generate inventory summary reports
+- Include stock levels, product details, and transaction history
+- Filter reports by date, category, or supplier
+- Export reports in PDF and CSV formats
+- Enable download or sharing of reports
+
+👉 Outcome: Helps in data-driven decision-making and business analysis.
+
 
 ## 🛠️ Technology Stack
 
@@ -132,5 +166,5 @@ For issues or questions, please create an issue in the GitHub repository.
 
 ---
 
-**Last Updated**: February 14, 2026  
-**Current Milestone**: 1 - Authentication & Role Management ✅ Complete
+**Last Updated**: March 28, 2026  
+
