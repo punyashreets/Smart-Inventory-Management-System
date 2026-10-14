@@ -79,7 +79,9 @@ def me():
     """Get current user"""
     return get_current_user(get_db())
 
+# Require a valid refresh token to call this endpoint
 @app.route('/api/auth/refresh', methods=['POST'])
+@jwt_required(refresh=True)
 def refresh():
     """Refresh access token"""
     return refresh_token()
